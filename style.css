@@ -1,5 +1,4 @@
 .main-wrapper {
-  margin-left: 25%;
   margin-right: 25%;
 }
 .color {
@@ -7,7 +6,7 @@
 }
 .categories {
   display: flex;
-  gap: 15%;
+  gap: 5%;
 }
 li {
   list-style: none;
@@ -23,16 +22,111 @@ li {
   background-color: #ff395a;
 }
 input {
-  border-radius: 32%;
+  border: 1px solid gray;
+  border-radius: 42%;
+  padding: 3%;
+  /* width: 50%; */
+}
+.explore {
+  border-radius: 38%;
+  background-color: #ff395a;
+  color: #fff;
+  /* width: 50%; */
 }
 .upgrade {
   display: flex;
   padding: 32px;
 }
 .hero {
-  width: 350%;
+  width: 100%;
   border-radius: 45%;
 }
-.hero-img{
-    margin-left: 25%;
+.hero-img {
+  margin-left: 5%;
+}
+.icon {
+  display: flex;
+  gap: 5%;
+  color: #9cb0ca;
+}
+.microsoft {
+  display: flex;
+  gap: 5%;
+  padding-bottom: 36px;
+  color: #9cb0ca;
+}
+.soft {
+  width: 45%;
+  object-fit: contain;
+}
+.slack {
+  display: flex;
+  gap: 5%;
+  padding-bottom: 36px;
+}
+.subscription {
+  display: flex;
+}
+.tick {
+  width: 20px;
+}
+.monthly {
+  padding: 16px;
+}
+
+.day {
+  padding: 16px;
+}
+.words {
+  font-size: 30px;
+  color: #233860;
+  padding: 16px;
+}
+.strength {
+  color: #9cb0ca;
+  padding: 16px;
+}
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .categories {
+    display: block;
+  }
+  .upgrade {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscription {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero {
+    width: 120%;
+    border-radius: 45%;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+  }
+  .microsoft {
+    display: flex;
+    gap: 5%;
+    padding-bottom: 36px;
+  }
+  .soft {
+    width: 40%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
+  .main-wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .categories {
+    gap: 10%;
+  }
+  .hero {
+    width: 100%;
+    border-radius: 45%;
+  }
 }
