@@ -1,0 +1,38 @@
+.main-wrapper {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.color {
+  color: #ff395a;
+}
+.categories {
+  display: flex;
+  gap: 15%;
+}
+li {
+  list-style: none;
+}
+.login {
+  border-radius: 45%;
+  color: #ff395a;
+  border-color: #ff395a;
+}
+.join {
+  border-radius: 45%;
+  color: #fff;
+  background-color: #ff395a;
+}
+input {
+  border-radius: 32%;
+}
+.upgrade {
+  display: flex;
+  padding: 32px;
+}
+.hero {
+  width: 350%;
+  border-radius: 45%;
+}
+.hero-img{
+    margin-left: 25%;
+}
