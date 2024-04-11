@@ -15,11 +15,13 @@ li {
   border-radius: 45%;
   color: #ff395a;
   border-color: #ff395a;
+  border-style: none;
 }
 .join {
   border-radius: 45%;
   color: #fff;
   background-color: #ff395a;
+  border-style: none;
 }
 input {
   border: 1px solid gray;
@@ -31,10 +33,10 @@ input {
   border-radius: 38%;
   background-color: #ff395a;
   color: #fff;
-  /* width: 50%; */
+  border-style: none;
 }
-.active{
-  color :#ff395a;
+.active {
+  color: #ff395a;
 }
 .upgrade {
   display: flex;
@@ -76,6 +78,9 @@ input {
 .monthly {
   padding: 16px;
 }
+.header {
+  padding: 8px;
+}
 
 .day {
   padding: 16px;
@@ -88,6 +93,9 @@ input {
 .strength {
   color: #9cb0ca;
   padding: 16px;
+}
+.cap {
+  width: 30px;
 }
 @media only screen and (max-width: 600px) and (min-width: 300px) {
   .categories {
@@ -115,14 +123,12 @@ input {
     padding-bottom: 36px;
   }
   .soft {
-    width: 40%;
-    object-fit: contain;
+    width: 20%;
   }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 601px) {
   .main-wrapper {
-    margin-left: 15%;
     margin-right: 15%;
   }
   .categories {
