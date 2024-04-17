@@ -7,7 +7,7 @@ a {
   padding: 16px;
   gap: 3%;
 }
-.pages {
+.navbar-header {
   font-size: 30px;
 }
 .login {
@@ -16,6 +16,7 @@ a {
   border-color: #ff395a;
   border-style: none;
   font-size: 30px;
+ 
 }
 .join {
   border-radius: 30px;
@@ -27,7 +28,7 @@ a {
 
 .btn-skills {
   color: #a3b6ce;
-  padding: 16px;
+  padding-left: 26px;
   width: 90px;
   font-size: 28px;
 }
@@ -42,6 +43,7 @@ a {
   border-style: none;
   padding: 16px;
   font-size: 20px;
+  margin-left: 23%;
 }
 .active {
   color: #ff395a;
@@ -54,16 +56,22 @@ a {
   width: 180%;
   border-radius: 45px;
 }
-
+.hero-img {
+  margin-left: 10%;
+}
 .logo {
   display: flex;
-  gap: 5%;
+  gap: 20%;
   color: #9cb0ca;
-  padding:16px;
+  padding: 16px;
+  margin-left: 13%;
   width: 50%;
 }
-.logo-image{
-  width:50px;
+.logo-image {
+  width: 50px;
+}
+#logo-image {
+  width: 80px;
 }
 .microsoft {
   display: flex;
@@ -72,6 +80,9 @@ a {
   color: #9cb0ca;
 }
 
+.name-logo {
+  font-size: 28px;
+}
 .slack {
   display: flex;
   gap: 5%;
@@ -80,7 +91,6 @@ a {
 .subscription {
   display: flex;
   font-size: 25px;
-  margin-top: -3%;
 }
 .tick {
   width: 30px;
@@ -89,16 +99,31 @@ a {
   padding: 16px;
 }
 .landing-page-content {
-  font-size: 40px;
+  font-size: 60px;
   color: #233860;
   padding: 16px;
 }
-.strength {
+#landing-page-content {
   color: #9cb0ca;
   padding: 16px;
 }
 .cap {
   width: 30px;
+}
+.navbar {
+  display: flex;
+  margin-left: 5%;
+  gap: 10%;
+}
+.navbar-pages {
+  font-size: 30px;
+  gap: 5%;
+}
+.landing-page {
+  margin-left: 5%;
+}
+.subscription {
+  margin-left: 5%;
 }
 @media only screen and (max-width: 600px) and (min-width: 300px) {
   .categories {
@@ -125,13 +150,10 @@ a {
     gap: 5%;
     padding-bottom: 36px;
   }
-  .soft {
-    width: 20%;
-  }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 601px) {
-  .categories {
+  a {
     gap: 10%;
   }
   .hero {
