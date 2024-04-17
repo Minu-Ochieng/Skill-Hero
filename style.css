@@ -1,58 +1,69 @@
-.main-wrapper {
-  margin-right: 25%;
-}
 .color {
   color: #ff395a;
 }
-.categories {
-  display: flex;
-  gap: 5%;
+
+a {
+  text-decoration: none;
+  padding: 16px;
+  gap: 3%;
 }
-li {
-  list-style: none;
+.pages {
+  font-size: 30px;
 }
 .login {
   border-radius: 45%;
   color: #ff395a;
   border-color: #ff395a;
   border-style: none;
+  font-size: 30px;
 }
 .join {
-  border-radius: 45%;
+  border-radius: 30px;
   color: #fff;
   background-color: #ff395a;
   border-style: none;
+  font-size: 30px;
 }
-input {
-  border: 1px solid gray;
-  border-radius: 42%;
-  padding: 3%;
-  /* width: 50%; */
+
+.btn-skills {
+  color: #a3b6ce;
+  padding: 16px;
+  width: 90px;
+  font-size: 28px;
 }
-.explore {
-  border-radius: 38%;
+.landing-button {
+  border: 2px solid #ccd3ca;
+  border-radius: 30px;
+}
+.explore-btn {
+  border-radius: 38px;
   background-color: #ff395a;
   color: #fff;
   border-style: none;
+  padding: 16px;
+  font-size: 20px;
 }
 .active {
   color: #ff395a;
 }
-.upgrade {
+.landing-page {
   display: flex;
-  padding: 32px;
+  gap: 10%;
 }
 .hero {
-  width: 100%;
-  border-radius: 45%;
+  width: 180%;
+  border-radius: 45px;
 }
-.hero-img {
-  margin-left: 5%;
-}
-.icon {
+
+.logo {
   display: flex;
   gap: 5%;
   color: #9cb0ca;
+  padding:16px;
+  width: 50%;
+}
+.logo-image{
+  width:50px;
 }
 .microsoft {
   display: flex;
@@ -60,10 +71,7 @@ input {
   padding-bottom: 36px;
   color: #9cb0ca;
 }
-.soft {
-  width: 45%;
-  object-fit: contain;
-}
+
 .slack {
   display: flex;
   gap: 5%;
@@ -71,22 +79,17 @@ input {
 }
 .subscription {
   display: flex;
+  font-size: 25px;
+  margin-top: -3%;
 }
 .tick {
-  width: 20px;
+  width: 30px;
 }
-.monthly {
+.monthly-subcription {
   padding: 16px;
 }
-.header {
-  padding: 8px;
-}
-
-.day {
-  padding: 16px;
-}
-.words {
-  font-size: 30px;
+.landing-page-content {
+  font-size: 40px;
   color: #233860;
   padding: 16px;
 }
@@ -101,7 +104,7 @@ input {
   .categories {
     display: block;
   }
-  .upgrade {
+  .landing-page {
     display: flex;
     flex-direction: column;
   }
@@ -113,7 +116,7 @@ input {
     width: 120%;
     border-radius: 45%;
   }
-  .icon {
+  .logo {
     display: flex;
     flex-direction: column;
   }
@@ -128,9 +131,6 @@ input {
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 601px) {
-  .main-wrapper {
-    margin-right: 15%;
-  }
   .categories {
     gap: 10%;
   }
