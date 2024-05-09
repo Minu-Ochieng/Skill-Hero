@@ -128,10 +128,7 @@ a {
 .subscription {
   margin-left: 5%;
 }
-@media only screen and (max-width: 600px) and (min-width: 280px) {
-  .categories {
-    display: block;
-  }
+@media only screen and (min-width: 280px) and (max-width: 600px) {
   .navbar-header {
     font-size: 20px;
   }
@@ -197,12 +194,12 @@ a {
   }
   .landing-page-content {
     font-size: 40px;
-    
+
     padding: 16px;
   }
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 601px) {
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
   a {
     gap: 10%;
   }
@@ -221,6 +218,81 @@ a {
     padding: 16px;
     font-size: 20px;
     margin-left: 8%;
+  }
+  .logo {
+    display: flex;
+    gap: 10%;
+    margin-left: 8%;
+  }
+  .navbar-pages {
+    font-size: 20px;
+    gap: 2%;
+  }
+  .hamburger-menu {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+  .hamburger-menu div {
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+    margin: 4px 0;
+  }
+  #menu-toggle:checked ~ .nav.links {
+    display: block;
+    display: none;
+  }
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero {
+    width: 70%;
+  }
+  .logo-image {
+    width: 20px;
+  }
+  #logo-image {
+    width: 60px;
+  }
+  .login {
+    border-radius: 36%;
+    color: #ff395a;
+    border-color: #ff395a;
+    border-style: none;
+    font-size: 20px;
+  }
+  .join {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #ff395a;
+    border-style: none;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1400px) {
+  a {
+    gap: 10%;
+  }
+  .navbar-header {
+    font-size: 20px;
+  }
+  .hero {
+    width: 100%;
+    border-radius: 45%;
+  }
+  .explore-btn {
+    border-radius: 38px;
+    background-color: #ff395a;
+    color: #fff;
+    border-style: none;
+    padding: 16px;
+    font-size: 20px;
+    margin-left: 42%;
   }
   .logo {
     display: flex;
